@@ -1,14 +1,20 @@
-m1 = int(input())
-m2 = int(input())
-
+miles1 = int(input())
+miles2 = int(input())
 # ИСПРАВИТЬ: ваш способ не сработает если пользователю понадобится ввести дробную часть для числа 12.34
-m3 = m2 / 10
-m4 = m1 + m3
-
-km1 = m4 * 1.61
+sum_of_miles = float(str(miles1) + '.' + str(miles2))
+# m3 = m2 / 10
+# m4 = m1 + m3
+# km1 = m4 * 1.61
 # КОММЕНТАРИЙ: избыточная переменная km2
-km2 = round(km1, 1)
-print(f"{m4} миль = {km2} км")
+# km2 = round(km1, 1)
+# print(f"{m4} миль = {km2} км")
+km = sum_of_miles * 1.61
+print(f"{sum_of_miles} миль = {km:.1f} км")
+
+# C:\Users\user\Desktop\Учеба\Python\Rozdjalovskij\2023.04.09>py 5.py
+# 15
+# 7
+# 15.7 миль = 25.3 км
 
 # ИСПОЛЬЗОВАТЬ: если результат округления должен быть использован где-то ещё, тогда имеет смысл использовать функцию round():
 #     km2 = round(km1, 1)
