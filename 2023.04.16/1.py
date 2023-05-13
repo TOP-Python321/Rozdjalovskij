@@ -15,7 +15,7 @@ else:
     num3 = 0
 print(num1 + num2 + num3)
 
-# C:\Users\user\Desktop\Учеба\Python\Rozdjalovskij\2023.04.16>py 1.py
+
 # 4
 # -22
 # 1.5
