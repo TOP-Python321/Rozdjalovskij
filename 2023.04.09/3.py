@@ -5,6 +5,7 @@ time = int(input())
 # print(f"{time} минут - это {h} час {m} мин")
 print(f"{time} минут - это {time // 60} час {time % 60} мин")
 
+
 # C:\Users\user\Desktop\Учеба\Python\Rozdjalovskij\2023.04.09>py 3.py
 # 150
 # 150 минут - это 2 час 30 мин
